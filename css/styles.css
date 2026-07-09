@@ -672,6 +672,7 @@ progress {
   --bs-gutter-y: 0;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   margin-top: calc(-1 * var(--bs-gutter-y));
   margin-right: calc(-0.5 * var(--bs-gutter-x));
   margin-left: calc(-0.5 * var(--bs-gutter-x));
@@ -9776,9 +9777,6 @@ textarea.form-control-lg {
   }
   .gap-lg-5 {
     gap: 3rem !important;
-  }
-  .text-lg-start {
-    text-align: left !important;
   }
   .text-lg-end {
     text-align: right !important;
