@@ -10892,8 +10892,15 @@ p {
   letter-spacing: 0.0625em;
   text-transform: uppercase;
 }
-#mainNav .navbar-brand img {
-  height: 1.5rem;
+#mainNav .navbar-brand-text {
+  display: inline-block;
+  line-height: 1.2;
+  font-size: inherit;
+  text-transform: none;
+}
+#mainNav .navbar-brand-text .brand-initial,
+#mainNav .navbar-brand-text .brand-last {
+  text-transform: uppercase;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -10917,9 +10924,8 @@ p {
     font-size: 1.5em;
     transition: font-size 0.3s ease-in-out;
   }
-  #mainNav .navbar-brand img {
-    height: 2rem;
-    transition: height 0.3s ease-in-out;
+  #mainNav .navbar-brand-text {
+    font-size: inherit;
   }
   #mainNav.navbar-shrink {
     padding-top: 1rem;
@@ -10929,9 +10935,8 @@ p {
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
   }
-  #mainNav.navbar-shrink .navbar-brand svg,
-  #mainNav.navbar-shrink .navbar-brand img {
-    height: 1.5rem;
+  #mainNav.navbar-shrink .navbar-brand-text {
+    font-size: inherit;
   }
   #mainNav .navbar-nav .nav-item {
     margin-right: 1rem;
